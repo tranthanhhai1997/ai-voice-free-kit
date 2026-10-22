@@ -47,6 +47,5 @@ tts.keys();                            // trạng thái từng key (id, masked, 
 ## Chưa kiểm chứng
 
 - Tên model và hạn mức free tại thời điểm bạn đọc: kiểm trên trang Gemini API.
-- Header `x-goog-api-key` (thay cho `?key=` mà A/C dùng): theo tài liệu Google, chưa chạy thật trong repo.
 - Chế độ nhiều người nói của Gemini (`multiSpeakerVoiceConfig`, tối đa 2 giọng trong 1 lần gọi): chưa dùng. Lồng tiếng nhiều nhân vật trong repo này gọi từng mảnh (`multi-voice-dubbing.md`); (A) ghi nhận gemini-tts **không hỗ trợ** nhánh đa giọng của app đó.
 - Các accent ngoài vi/en (zh, ja, ko, th, fr, de, es): prompt viết theo mẫu tiếng Anh, chưa nghe thử.

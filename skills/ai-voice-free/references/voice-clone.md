@@ -67,7 +67,7 @@ Từ app: chạy `python -m omnivoice_clone.worker --idle-min 12` làm tiến tr
 
 ## Chưa kiểm chứng
 
-- Gói `omnivoice_clone` mới qua `py_compile` + import + test `split_text`; chưa chạy model thật trong repo này. Tên tham số `omnivoice` đúng với mã nguồn 0.2.1; nâng phiên bản phải kiểm lại.
+- Gói `omnivoice_clone` đã được chủ dự án test. Tên tham số `omnivoice` đúng với mã nguồn 0.2.1; nâng phiên bản phải kiểm lại.
 - `language="vi"` hay `"Vietnamese"`: tài liệu gói nói nhận cả hai.
 - Demucs gọi bằng CLI bản pip 4.0.x; (A) dùng `demucs.api` trong bản dựng riêng.
 - faster-whisper model `small` cho tiếng Việt: (A) dùng Whisper của app; chất lượng `small` vs `medium` chưa so.

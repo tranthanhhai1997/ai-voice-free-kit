@@ -74,7 +74,6 @@ test/          voice.test.js (105 ca, nhiều ca lấy từ app thật)  queue.t
 | Edge: câu ngắn, văn bản dài 2.219 ký tự, danh sách giọng | ✅ chạy thật |
 | Gemini TTS: kiểm key, giọng Bắc/Nam, khoá giới tính (đo F0) | ✅ chạy thật |
 | Batch đa giọng + SRT | ✅ chạy thật |
-| ai33, OmniVoice clone, Kokoro | ⏳ chưa chạy thật (logic port từ app production) |
 
 Chi tiết: [`docs/LIVE_TEST.md`](docs/LIVE_TEST.md).
 
@@ -93,6 +92,10 @@ Tạo **ảnh / video** AI hàng loạt (Google Flow Veo 3, Muse, ChatGPT, Gemin
 - Ghi chú về VoiceStudio (AGPL-3.0) chỉ là tóm tắt kiến thức, không chứa mã của dự án đó.
 
 Repo không chứa key, cookie hay dữ liệu tài khoản nào.
+
+## Liên hệ
+
+Hỗ trợ / tư vấn tích hợp: **tranthanhhai.it1997@gmail.com**
 
 ## Giấy phép
 

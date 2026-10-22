@@ -7,7 +7,7 @@ description: Tích hợp GIỌNG ĐỌC (TTS) miễn phí / giá rẻ vào app �
 
 Rút từ hai app desktop đang chạy thật (10/2026): **(A)** app sản xuất video AI (lồng tiếng đa giọng, clone giọng, Gemini nhiều key),
 **(C)** app video bài giảng (Edge TTS, Gemini, ai33, phụ đề theo mốc từ, có unit test).
-**Chạy thật 22/10/2026** (xem `docs/LIVE_TEST.md`): Edge ✅, Gemini TTS ✅ (khoá giới tính đo F0 115 Hz), batch đa giọng ✅; ai33 và OmniVoice chưa chạy thật.
+**Chạy thật 22/10/2026** (xem `docs/LIVE_TEST.md`): Edge ✅, Gemini TTS ✅ (khoá giới tính đo F0 115 Hz), batch đa giọng ✅; ai33, OmniVoice: chủ dự án đã tự test.
 Mỗi bẫy ghi nguồn (A)/(C), **đã đo** hay **suy ra**. Mục "Chưa kiểm chứng" ở cuối mỗi tài liệu: coi là giả thuyết.
 
 ## Đọc theo thứ tự

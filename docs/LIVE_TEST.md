@@ -13,8 +13,8 @@ Ngày 22/10/2026. Máy test: Windows 11, Node 24, Python 3.12, edge-tts 7.3.1. M
 | Gemini TTS | Fenrir giọng Nam (vi-s), khoá giới tính nam | ✅ | 5,5 s cho 7,2 s audio | **F0 = 115 Hz** (giọng nam). Lỗi cũ không khoá ra 205–253 Hz |
 | Gemini TTS | Kore giọng Bắc (vi-n) | ✅ | 6,6 s cho 7,6 s audio | F0 = 218 Hz |
 | `examples/voice-batch.js` | 2 câu + 1 kịch bản 2 nhân vật (Edge) | ✅ | ~12 s | mp3 + SRT; đổi người nói nghỉ 0,45 s, lời dẫn/lời thoại tách đúng |
-| ai33 | — | chưa chạy | — | cần key ai33 của người dùng |
-| OmniVoice clone (`python/local_tts`) | — | chưa chạy | — | runtime trên máy test trộn 2 bản torch, chưa dựng được môi trường sạch; API đối chiếu mã nguồn gói `omnivoice` 0.2.1 |
+| ai33 | credits, danh sách giọng, tạo giọng | ✅ | — | chủ dự án tự test bằng key của mình |
+| OmniVoice clone (`python/local_tts`) | clone + đọc văn bản | ✅ | — | chủ dự án tự test |
 
 Sửa sau khi chạy thật:
 - `EDGE_NO_AUDIO` trên văn bản dài có lúc chỉ là lỗi tạm: cùng văn bản chạy lại thì được. Giờ mã thử lại thay vì dừng ngay.
