@@ -96,7 +96,7 @@ Repo không chứa key, cookie hay dữ liệu tài khoản nào.
 ## Liên hệ
 
 Hỗ trợ / tư vấn tích hợp: **tranthanhhai.it1997@gmail.com**
-
+Cần nguồn voice ElevenLabs Free TTS hơn 9000 voice nước ngoài liên hệ riêng mình nhé.
 ## Giấy phép
 
 [MIT](LICENSE) © 2026 Hai Tran. Dùng, sửa, phân phối tự do (kể cả thương mại), miễn giữ lại thông báo bản quyền.
