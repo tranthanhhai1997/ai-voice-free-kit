@@ -1,0 +1,13 @@
+{
+  "name": "ai-voice-free-kit",
+  "version": "0.1.0",
+  "description": "Free / cheap text-to-speech for apps: Edge Read Aloud, Gemini TTS, ai33, OmniVoice clone; Vietnamese text normalization, multi-voice dubbing, SRT/VTT subtitles. Zero dependencies, built for AI coding agents to integrate.",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check.js",
+    "test": "node test/voice.test.js && node test/queue.test.js"
+  },
+  "author": "Hai Tran (https://github.com/tranthanhhai1997)",
+  "license": "MIT"
+}
